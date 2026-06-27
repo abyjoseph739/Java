@@ -15,6 +15,8 @@ public  class pgr1  {
         System.out.println("Enter the Percentage: ");
         Double P = io.nextDouble();
 
+        System.out.println("\nStudent Details");
+        System.out.println("---------------");
         System.out.println("Name :"+n);
         System.out.println("Roll No :"+r);
         System.out.println("Course :"+c);
