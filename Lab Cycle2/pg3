@@ -1,0 +1,26 @@
+class Rectangle{
+    int length;
+    int breadth;
+    Rectangle(){
+        length = 1;
+        breadth = 1;
+    }
+    Rectangle(int length,int breadth){
+        this.length = length;
+        this.breadth = breadth;
+    }
+    int area(){
+        return length * breadth;
+    }
+}
+public class Main3 {
+    public static void main(String[] args){
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle(5,4);
+        int a = r1.area();
+        int b = r2.area();
+        System.out.println("Rectangle 1 :"+a);
+        System.out.println("Rectangle 2 :"+b);
+    }
+
+}
