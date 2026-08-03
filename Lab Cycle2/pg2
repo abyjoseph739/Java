@@ -1,0 +1,23 @@
+class Employee {
+    String Name;
+    double Salary;
+
+    Employee(String Name, double salary) {
+        this.Name = Name;
+        this.Salary = salary;
+    }
+
+    void display() {
+        System.out.println("Employee Name : " + Name);
+        System.out.println("Employee Salary : " + Salary);
+    }
+}
+
+public class Main2 {
+    public static void main(String[] args) {
+
+        Employee e = new Employee("Aby", 510.20);
+        e.display();
+
+    }
+}
