@@ -1,0 +1,23 @@
+class person{
+    String name;
+    int age;
+    person(){
+        System.out.println("Default Constructor Parameterized Constructor");
+    }
+    person(String name,int age){
+        this();
+        this.name = name;
+        this.age = age;
+    }
+    void display(){
+        System.out.println("Name :"+name);
+        System.out.println("Age :"+age);
+    }
+}
+
+public class Main5 {
+    public static void main(String[] args){
+        person p2 = new person("Aby",23);
+        p2.display();
+    }
+}
