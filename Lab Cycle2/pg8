@@ -1,0 +1,19 @@
+class Number{
+    void display(int integer){
+        System.out.println("Interger :"+integer);
+    }
+    void display(double Double){
+        System.out.println("Double :"+Double);
+    }
+    void display(String string){
+        System.out.println("String :"+string);
+    }
+}
+public class Main8 {
+    public static void main(String[] args){
+        Number n1 = new Number();
+        n1.display(10);
+        n1.display(2.5);
+        n1.display("Hello");
+    }
+}
