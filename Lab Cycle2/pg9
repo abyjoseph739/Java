@@ -1,0 +1,19 @@
+class Calcu{
+    int side;
+    int length;
+    int breath;
+    int area(int side){
+        return side*side;
+    }
+    int area(int length,int breath){
+        return length*breath;
+    }
+}
+public class Main9 {
+    public static void main(String[] args){
+        Calcu c = new Calcu();
+        System.out.println("Area of a square :"+c.area(5));
+        System.out.println("Area of a square :"+c.area(10,5));
+
+    }
+}
