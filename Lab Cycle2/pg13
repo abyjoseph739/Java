@@ -1,0 +1,27 @@
+class Circle {
+    double radius;
+    double area;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+}
+
+public class Main {
+
+    static Circle calculateArea(double radius) {
+
+        Circle c = new Circle(radius);
+        c.area = Math.PI * radius * radius;
+
+        return c;
+    }
+
+    public static void main(String[] args) {
+
+        Circle c = calculateArea(7);
+
+        System.out.printf("Radius = %.1f%n", c.radius);
+        System.out.printf("Area = %.2f%n", c.area);
+    }
+}
